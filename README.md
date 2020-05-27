@@ -23,4 +23,4 @@ r - remove package
 c - create package
 
 DOWNLOAD:
-https://glowiak.github.io/batchbsd/BatchBSD.zip
+https://github.com/glowiak/batchbsd/raw/master/BatchBSD.zip
