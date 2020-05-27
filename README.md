@@ -16,6 +16,7 @@ cd - go to directory
 md - make directory
 
 DEFUALT USER IS root
+DEFUALT root PASSWORD IS root
 
 SYNTAX FOR pkg_add:
 i - install package
