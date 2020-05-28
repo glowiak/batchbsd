@@ -1,0 +1,10 @@
+@echo off
+goto calc
+
+:calc
+cls
+set/p "working=Type calc text:"
+set/a win = %working%
+echo Win is %win%
+pause>nul
+goto calc
