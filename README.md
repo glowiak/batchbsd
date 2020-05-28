@@ -25,3 +25,10 @@ c - create package
 
 DOWNLOAD:
 https://github.com/glowiak/batchbsd/raw/master/BatchBSD_v2.zip
+
+REMOVING SYSTEM:
+pkg_add,
+paprotka,
+remove-basesystem,
+ENTER,
+done!
