@@ -1,0 +1,477 @@
+@echo off
+title MineBatch v16202005
+set endstone=0
+set swordallowed=0
+set dragonegg=0
+set goldore=0
+set magmablock=0
+set netherrack=0
+set ironore=0
+set planks=0
+set stone=0
+set pickaxeallowed=0
+set iron=0
+set gold=0
+set diamond=0
+set obsidian=0
+set netherallowed=0
+set theendallowed=0
+goto menu
+
+:menu
+cls
+type image-menu.net
+set/p "prompt1=Choose:"
+if %prompt1%==1 goto game
+if %prompt1%==2 goto about
+if %prompt1%==3 goto exit
+
+:exit
+exit
+
+:about
+cls
+type image-about.net
+pause>nul
+goto menu
+
+:game
+cls
+set/p "nick=Write your nick here:"
+echo Done!
+goto loading-animation
+
+:loading-animation
+cls
+type animation-loading-1.net
+ping localhost-n 1 nul
+cls
+type animation-loading-2.net
+ping localhost-n 1 nul
+cls
+type animation-loading-3.net
+ping localhost-n 1 nul
+cls
+type animation-loading-4.net
+ping localhost-n 1 nul
+cls
+type animation-loading-5.net
+ping localhost-n 1 nul
+cls
+type animation-loading-complete.net
+ping localhost-n 1 nul
+cls
+goto gamemenu
+
+:gamemenu
+cls
+echo  #################################################
+echo  #      %nick%'s House                           
+echo  #################################################
+echo.
+echo              RESOURCES:
+echo Netherrack: %netherrack%
+echo Magma: %magmablock%
+echo Endstone: %endstone%
+echo Planks: %planks%
+echo Cobblestone: %stone%
+echo Pickaxe level: %pickaxeallowed%
+echo Sword: %swordallowed%
+echo Iron Ore: %ironore%
+echo Gold Ore: %goldore%
+echo Iron Ingots: %iron%
+echo Gold Ingots: %gold%
+echo Diamonds: %diamond%
+echo Obsidian: %obsidian%
+ECHO Dragon Egg: %dragonegg%
+echo Nether Unlocked: %netherallowed%
+ECHO End Unlocked: %theendallowed%
+echo                TASKS:
+echo 1.CUT UP A TREE
+ECHO 2.WORKBENCH
+ECHO 3.FURNACE
+ECHO 4.MINE
+ECHO 5.GO TO THE END AND KILL DRAGON
+ECHO 6.BACK TO MENU
+set/p "choose2=Choose:"
+if %choose2%==6 goto menu
+if %choose2%==1 goto tree
+if %choose2%==2 goto workbench
+if %choose2%==3 goto furnace
+if %choose2%==4 goto mine
+if %choose2%==5 goto killdragon
+if %choose2%==notch goto getnotch
+if %choose2%==koniec goto unend
+if %choose2%==hellishere goto pieklo
+if %choose2%==minetime goto mtime
+if %choose2%==woodencastle goto planks4xd
+if %choose2%==getangry goto angryjack
+if %choose2%==cobbleorstone goto gtst
+if %choose2%==hardrain goto dobs
+if %choose2%==toptoptopsecret goto hacks
+
+:hacks
+cls
+type hck.net
+pause>nul
+goto gamemenu
+
+:dobs
+cls
+set diamond=200
+set obsidian=200
+goto gamemenu
+
+:gtst
+cls
+set stone=200
+goto gamemenu
+
+:angryjack
+cls
+set swordallowed=1
+goto gamemenu
+
+:planks4xd
+cls
+set planks=200
+goto gamemenu
+
+:mtime
+cls
+set pickaxeallowed=3
+set ironore=200
+set goldore=200
+goto gamemenu
+
+:pieklo
+cls
+set netherallowed=1
+
+:unend
+cls
+set theendallowed=1
+goto gamemenu
+
+:getnotch
+cls
+set planks=200
+set stone=200
+set dragonegg=200
+set pickaxeallowed=3
+set swordallowed=1
+set theendallowed=1
+set netherallowed=1
+set diamond=200
+set obsidian=200
+set iron=200
+set gold=200
+set netherrack=200
+set endstone=200
+set magmablock=200
+goto gamemenu
+
+:tree
+cls
+type animation-cuttree-1.net
+ping localhost-n 1 nul
+cls
+type animation-cuttree-2.net
+ping localhost-n 1 nul
+cls
+type animation-cuttree-3.net
+ping localhost-n 1 nul
+cls
+type animation-cuttree-4.net
+ping localhost-n 1 nul
+cls
+set/a planks=planks+12
+goto gamemenu
+
+:workbench
+cls
+type gui-workbench.net
+echo.
+set/p "choose3=Choose:"
+if %choose3%==1 goto craftpickaxelevel1
+if %choose3%==2 goto craftpickaxelevel2
+if %choose3%==3 goto craftpickaxelevel3
+if %choose3%==4 goto craftnetherportal
+if %choose3%==5 goto crafttheendportal
+if %choose3%==6 goto gamemenu
+if %choose3%==7 goto craftsword
+
+:craftsword
+cls
+set swordallowed=1
+set/a planks=planks-1
+set/a diamond=diamond-2
+goto gamemenu
+
+:craftpickaxelevel1
+cls
+set pickaxeallowed=1
+set/a planks=planks-5
+goto gamemenu
+
+
+:craftpickaxelevel2
+cls
+set pickaxeallowed=2
+set/a planks=planks-2
+set/a stone=stone=3
+goto gamemenu
+
+:craftpickaxelevel3
+cls
+set pickaxeallowed=3
+set/a planks=planks-2
+set/a iron=iron-3
+goto gamemenu
+
+:craftnetherportal
+cls
+set netherallowed=1
+set/a obsidian=obsidian-14
+goto gamemenu
+
+:crafttheendportal
+cls
+set theendallowed=1
+set/a netherrack=netherrack-200
+set/a magma=magma-20
+goto gamemenu
+
+:furnace
+cls
+type gui-furnace.net
+echo.
+set/p "choose4=Choose:"
+if %choose4%==1 goto smeltiron
+if %choose4%==2 goto smeltgold
+if %choose4%==3 goto gamemenu
+
+:smeltiron
+cls
+set/a ironore=ironore-1
+set/a iron=iron+1
+goto gamemenu
+
+:smeltgold
+cls
+set/a goldore=goldore-1
+set/a gold=gold+1
+goto gamemenu
+
+:mine
+cls
+type gui-mine.net
+echo.
+set/p "choose5=Choose:"
+if %choose5%==1 goto minecobble
+if %choose5%==2 goto mineiron
+if %choose5%==3 goto minegold
+if %choose5%==4 goto minediamond
+if %choose5%==5 goto mineobsidian
+if %choose5%==6 goto minemagma
+if %choose5%==7 goto minenetherrack
+if %choose5%==8 goto mineendstone
+if %choose5%==9 goto gamemenu
+
+:minecobble
+cls
+if %pickaxeallowed%==0 (
+echo you haven't pickaxe
+)
+if %pickaxeallowed%==1 (
+set/a stone=stone+12
+goto gamemenu
+)
+if %pickaxeallowed%==2 (
+set/a stone=stone+12
+goto gamemenu
+)
+if %pickaxeallowed%==3 (
+set/a stone=stone+12
+goto gamemenu
+)
+
+:mineiron
+cls
+if %pickaxeallowed%==0 (
+echo you haven't pickaxe
+goto gamemenu
+)
+if %pickaxeallowed%==1 (
+echo you pickaxe level is too small!
+goto gamemenu
+)
+if %pickaxeallowed%==2 (
+set/a ironore=ironore+4
+goto gamemenu
+)
+if %pickaxeallowed%==3 (
+set/a ironore=ironore+4
+goto gamemenu
+)
+
+:minegold
+cls
+if %pickaxeallowed%==0 (
+echo you haven't pickaxe
+goto gamemenu
+)
+if %pickaxeallowed%==1 (
+echo you pickaxe level is too small!
+goto gamemenu
+)
+if %pickaxeallowed%==2 (
+echo you pickaxe level is too small!
+goto gamemenu
+)
+if %pickaxeallowed%==3 (
+set/a goldore=goldore+3
+goto gamemenu
+)
+
+:minediamond
+cls
+if %pickaxeallowed%==3 (
+set/a diamond=diamond+1
+goto gamemenu
+)
+if %pickaxeallowed%==0 (
+echo you haven't pickaxe
+)
+if %pickaxeallowed%==2 (
+echo you pickaxe level is too small!
+goto gamemenu
+)
+if %pickaxeallowed%==1 (
+echo you pickaxe level is too small!
+goto gamemenu
+)
+
+:mineobsidian
+cls
+if %pickaxeallowed%==3 (
+set/a obsidian=obsidian+1
+goto gamemenu
+)
+if %pickaxeallowed%==0 (
+echo you haven't pickaxe
+goto gamemenu
+)
+if %pickaxeallowed%==2 (
+echo you pickaxe level is too small!
+goto gamemenu
+)
+if %pickaxeallowed%==1 (
+echo you pickaxe level is too small!
+goto gamemenu
+)
+
+:minemagma
+cls
+if %pickaxeallowed%==0 (
+echo you haven't pickaxe
+goto gamemenu
+)
+if %pickaxeallowed%==3 (
+if %netherallowed%==1 (
+set/a magmablock=magmablock+1
+goto gamemenu
+)
+)
+if %pickaxeallowed%==3 (
+if %netherallowed%==0 (
+echo you must unlock the nether dimension!
+goto gamemenu
+)
+)
+if %pickaxeallowed%==2 (
+echo you pickaxe level is too small!
+goto gamemenu
+)
+if %pickaxeallowed%==1 (
+echo you pickaxe level is too small!
+goto gamemenu
+)
+
+:minenetherrack
+cls
+if %pickaxeallowed%==3 (
+if %netherallowed%==1 (
+set/a netherrack=netherrack+10
+goto gamemenu
+)
+)
+if %pickaxeallowed%==3 (
+if %netherallowed%==0 (
+echo you must unlock the nether dimension!
+goto gamemenu
+)
+)
+if %pickaxeallowed%==0 (
+echo you haven't pickaxe
+goto gamemenu
+)
+if %pickaxeallowed%==2 (
+echo you pickaxe level is too small!
+goto gamemenu
+)
+if %pickaxeallowed%==1 (
+echo you pickaxe level is too small!
+goto gamemenu
+)
+
+:mineendstone
+cls
+if %pickaxeallowed%==3 (
+if %endallowed%==1 (
+set/a endstone=endstone+10
+goto gamemenu
+)
+)
+if %pickaxeallowed%==3 (
+if %theendallowed%==0 (
+echo you must unlock the end dimension!
+goto gamemenu
+)
+)
+if %pickaxeallowed%==0 (
+echo you haven't pickaxe
+goto gamemenu
+)
+if %pickaxeallowed%==2 (
+echo you pickaxe level is too small!
+goto gamemenu
+)
+if %pickaxeallowed%==1 (
+echo you pickaxe level is too small!
+goto gamemenu
+)
+
+:killdragon
+cls
+type gui-enteringend.net
+ping localhost-n 5 nul
+cls
+if %swordallowed%==1 goto kdi
+if %swordallowed%==0 goto lostpick
+
+:kdi
+type gui-dragonkilled.net
+set/p "endchoose=Choose:"
+if %endchoose%==0 goto exit
+if %endchoose%==1 goto getdragonegg
+
+:getdragonegg
+set dragonegg=1
+goto gamemenu
+
+:lostpick
+type gui-endnosword.net
+pause>nul
+set/a pickaxeallowed=pickaxeallowed=0
+goto gamemenu
