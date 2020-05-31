@@ -24,7 +24,7 @@ r - remove package
 c - create package
 
 DOWNLOAD:
-https://github.com/glowiak/batchbsd/raw/master/BatchBSD_v5.zip
+https://github.com/glowiak/batchbsd/raw/master/BatchBSD_v6.zip
 
 REMOVING SYSTEM:
 pkg_add,
@@ -32,3 +32,5 @@ paprotka,
 remove-basesystem,
 ENTER,
 done!
+
+In v6 I tested curl, but IE engine is back!
