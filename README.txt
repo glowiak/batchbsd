@@ -24,7 +24,8 @@ r - remove package
 c - create package
 
 DOWNLOAD:
-https://github.com/glowiak/batchbsd/raw/master/BatchBSD_v7.zip
+v6 (LTS build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v6.zip
+v7 (normal build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v7.zip
 
 REMOVING SYSTEM:
 pkg_add,
