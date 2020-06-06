@@ -34,4 +34,5 @@ remove-basesystem,
 ENTER,
 done!
 
-In v6 I tested curl, but IE engine is back!
+In v6 I tested curl (and wget), but IE engine is back!
+In v7 to execute commands type "su" and "root" to access root console (v7 isn't LTS version, because "su" is in alpha phase)
