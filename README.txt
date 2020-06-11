@@ -24,11 +24,11 @@ r - remove package
 c - create package
 
 DOWNLOAD:
-v6 (LTS build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v6.zip
-v7 (normal build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v8.zip
+v9 (LTS build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v9.zip
+v8 (test+unstable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v8.zip
 
 REMOVING SYSTEM:
-pkg_add,
+pack_add,
 paprotka,
 remove-basesystem,
 ENTER,
@@ -36,3 +36,10 @@ done!
 
 In v6 I tested curl (and wget), but IE engine is back!
 In v7 to execute commands type "su" and "root" to access root console (v7 isn't LTS version, because "su" is in alpha phase)
+
+In test+unstable builds (in 7 pbin is defualt enabled) to enable pbin (binary (exe) packages installation from internet:
+runt
+nano pbin.bat
+#change "NO" to "YES" in "set pbin_enable=NO" line,
+#save and exit nano
+#done pbin is enabled!
