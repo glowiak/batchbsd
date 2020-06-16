@@ -28,7 +28,7 @@ repoinfo - view information about your software repository
 RESCUE SHELL COMMANDS:
 goback - back to normal shell
 set-strapsource - change strap software repository
-update-system - update system to specify version
+system-update - update system to specify version
 
 System Users:
 Name: root
