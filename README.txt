@@ -28,6 +28,7 @@ repoinfo - view information about your software repository
 RESCUE SHELL COMMANDS:
 goback - back to normal shell
 set-strapsource - change strap software repository
+update-system - update system to specify version
 
 System Users:
 Name: root
@@ -47,7 +48,7 @@ ce - create binary package
 cn - transform net library into library package
 
 DOWNLOAD:
-v10 (LTS build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v10.zip
+v11 (LTS build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v11.zip
 v8 (test+unstable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v8.zip
 
 REMOVING SYSTEM:
