@@ -48,7 +48,7 @@ ce - create binary package
 cn - transform net library into library package
 
 DOWNLOAD:
-v11 (LTS build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v11.zip
+v12 (LTS build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v12.zip
 v8 (test+unstable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v8.zip
 
 REMOVING SYSTEM:
@@ -67,3 +67,5 @@ nano pbin.bat
 #change "NO" to "YES" in "set pbin_enable=NO" line,
 #save and exit nano
 #done pbin is enabled!
+
+12 is bugfix update, no new features...at the moment...
