@@ -24,6 +24,7 @@ runt - run terminal app (TApp)
 shutdown (in test+unstable is exit3) - shutdown BatchBSD
 flag - flag file(s) (currenty it doesn't work, I will repair it later)
 repoinfo - view information about your software repository
+gdisk - information about disks and partitions
 
 RESCUE SHELL COMMANDS:
 goback - back to normal shell
@@ -48,7 +49,7 @@ ce - create binary package
 cn - transform net library into library package
 
 DOWNLOAD:
-v12 (LTS build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v12.zip
+v13 (LTS build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v13.zip
 v8 (test+unstable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v8.zip
 
 REMOVING SYSTEM:
