@@ -38,7 +38,7 @@ Pass: root
 Name: paprotka
 Pass: 
 
-SYNTAX FOR pkg_add:
+SYNTAX FOR pack_add:
 i - install package
 r - remove package
 c - create package
