@@ -25,6 +25,8 @@ shutdown (in test+unstable is exit3) - shutdown BatchBSD
 flag - flag file(s) (currenty it doesn't work, I will repair it later)
 repoinfo - view information about your software repository
 gdisk - information about disks and partitions
+multipak - mPak installer interv
+multipak-local - mPak installer localv
 
 RESCUE SHELL COMMANDS:
 goback - back to normal shell
@@ -70,3 +72,6 @@ nano pbin.bat
 #done pbin is enabled!
 
 12 is bugfix update, no new features...at the moment...
+
+Strap (strap,exestrap,netstrap) can download and install one-file package so, in 14 I added new experimental package manager called "multipak". Multipak packages (.mPak) are compressed folders with data.
+multipak github repo (multipak download files from this repo): http://github.com/glowiak/multipak
