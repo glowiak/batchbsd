@@ -75,3 +75,5 @@ nano pbin.bat
 
 Strap (strap,exestrap,netstrap) can download and install one-file package so, in 14 I added new experimental package manager called "multipak". Multipak packages (.mPak) are compressed folders with data.
 multipak github repo (multipak download files from this repo): http://github.com/glowiak/multipak
+
+I will stop developing strap,because it's old, bugged and useless. Multipak is the future of BatchBSD packaging! (strap will be in BatchBSD FOREVER)
