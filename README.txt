@@ -51,7 +51,7 @@ ce - create binary package
 cn - transform net library into library package
 
 DOWNLOAD:
-v17 (Stable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v17.zip
+v18 (Stable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v18.zip
 v8 (test+unstable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v8.zip
 
 REMOVING SYSTEM:
@@ -77,3 +77,5 @@ Strap (strap,exestrap,netstrap) can download and install one-file package so, in
 multipak github repo (multipak download files from this repo): http://github.com/glowiak/multipak
 
 I will stop developing strap,because is bugged and useless. Multipak is the future of BatchBSD packaging! (strap will be in BatchBSD FOREVER)
+
+In v18 I changed boot loader image :).
