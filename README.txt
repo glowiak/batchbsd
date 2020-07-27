@@ -79,3 +79,5 @@ multipak github repo (multipak download files from this repo): http://github.com
 I will stop developing strap,because is bugged and useless. Multipak is the future of BatchBSD packaging! (strap will be in BatchBSD FOREVER)
 
 In v18 I changed boot loader image :).
+
+For now v7 is no longer supproted, update to 18 or 8.
