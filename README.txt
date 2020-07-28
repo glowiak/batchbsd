@@ -51,7 +51,7 @@ ce - create binary package
 cn - transform net library into library package
 
 DOWNLOAD:
-v18 (Stable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v18.zip
+v19 (Stable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v19.zip
 v8 (test+unstable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v8.zip
 
 REMOVING SYSTEM:
@@ -81,3 +81,11 @@ I will stop developing strap,because is bugged and useless. Multipak is the futu
 In v18 I changed boot loader image :).
 
 For now v7 is no longer supproted, update to 18 or 8.
+
+v19 - The Multipak Update released! It's update for multipak! News:
+-multipak have shell
+-multipak have on-server packages list and local packages list
+-multipak can update online software list
+-added "ifconfig" command, it shows you your ip
+
+In 15.08.2020 I will stop developing test+unstable edition and publish old versions for download from this website!
