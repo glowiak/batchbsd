@@ -51,7 +51,7 @@ ce - create binary package
 cn - transform net library into library package
 
 DOWNLOAD:
-v19 (Stable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v19.zip
+v20 (Stable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v20.zip
 v8 (test+unstable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v8.zip
 
 REMOVING SYSTEM:
@@ -89,3 +89,9 @@ v19 - The Multipak Update released! It's update for multipak! News:
 -added "ifconfig" command, it shows you your ip
 
 In 15.08.2020 I will stop developing test+unstable edition and publish old versions for download from this website!
+
+Changes in v20:
+-repaired multipak localv
+-added "bbsd_v" and "kernel_v" variables
+-updated software list
+-added system-files-check on startup
