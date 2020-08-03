@@ -32,7 +32,7 @@ ifconfig - IP configuration
 RESCUE SHELL COMMANDS:
 goback - back to normal shell
 set-strapsource - change strap software repository
-system-update - update system to specify version
+set-mpaksource - change multipak software repository (used for installing large packages)
 
 System Users:
 Name: root
@@ -52,7 +52,7 @@ ce - create binary package
 cn - transform net library into library package
 
 DOWNLOAD:
-v22 (Stable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v22.zip
+v23 (Stable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v23.zip
 v8 (test+unstable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v8.zip
 
 REMOVING SYSTEM:
@@ -96,3 +96,5 @@ Changes in v20:
 -added "bbsd_v" and "kernel_v" variables
 -updated software list
 -added system-files-check on startup
+
+In v23 repaired "set-mpaksource" RESCUE-SHELL command. 21,22,23 are bugfix updates.
