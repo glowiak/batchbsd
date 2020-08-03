@@ -27,6 +27,7 @@ repoinfo - view information about your software repository
 gdisk - information about disks and partitions
 multipak - mPak installer interv
 multipak-local - mPak installer localv
+ifconfig - IP configuration
 
 RESCUE SHELL COMMANDS:
 goback - back to normal shell
@@ -51,7 +52,7 @@ ce - create binary package
 cn - transform net library into library package
 
 DOWNLOAD:
-v20 (Stable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v20.zip
+v21 (Stable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v21.zip
 v8 (test+unstable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v8.zip
 
 REMOVING SYSTEM:
