@@ -52,7 +52,7 @@ ce - create binary package
 cn - transform net library into library package
 
 DOWNLOAD:
-v23 (Stable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v23.zip
+v24 (Stable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v24.zip
 v8 (test+unstable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v8.zip
 
 REMOVING SYSTEM:
