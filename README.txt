@@ -53,7 +53,6 @@ cn - transform net library into library package
 
 DOWNLOAD:
 v24 (Stable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v24.zip
-v8 (test+unstable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v8.zip
 
 
 DOWNLOAD OLD BUILDS:
