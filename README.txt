@@ -76,7 +76,7 @@ v8: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v8.zip
 v7: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v7.zip
 v6: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v6.zip
 v5: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v5.zip
-v4: http:http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v24.zip
+v4: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v24.zip
 v3: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v3.zip
 v2: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v2.zip
 v1: http://github.com/glowiak/batchbsd/raw/master/BatchBSD.zip
