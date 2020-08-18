@@ -55,6 +55,32 @@ DOWNLOAD:
 v24 (Stable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v24.zip
 v8 (test+unstable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v8.zip
 
+
+DOWNLOAD OLD BUILDS:
+v23: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v23.zip
+v22: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v22.zip
+v21: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v21.zip
+v20: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v20.zip
+v19: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v18.zip
+v18: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v18.zip
+v17: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v17.zip
+v16: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v16.zip
+v15: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v15.zip
+v14: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v14.zip
+v13: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v13.zip
+v12: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v12.zip
+v11: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v11.zip
+v10: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v10.zip
+v9: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v9.zip
+v8: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v8.zip
+v7: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v7.zip
+v6: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v6.zip
+v5: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v5.zip
+v4: http:http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v24.zip
+v3: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v3.zip
+v2: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v2.zip
+v1: http://github.com/glowiak/batchbsd/raw/master/BatchBSD.zip
+
 REMOVING SYSTEM:
 pack_add,
 paprotka,
