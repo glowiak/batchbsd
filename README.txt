@@ -135,3 +135,8 @@ After 2 weeks of nothing I created v25 - The BSD Compat Update, News in this ver
 -added dev/null file
 -added compat/windows_nt folder (DLLs in compat/windows_nt/libs are random DLLs from my Windows 8)
 -renamed main file from "main.bat" to "boot.bat"
+
+How to install BatchBSD on non-windows:
+1.Install Wine (http://winehq.org)
+2.Download and unpack latest BatchBSD file.
+3.Start main BatchBSD file with Wine
