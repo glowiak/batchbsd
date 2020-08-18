@@ -52,10 +52,11 @@ ce - create binary package
 cn - transform net library into library package
 
 DOWNLOAD:
-v24 (Stable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v24.zip
+v25 (Stable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v25.zip
 
 
 DOWNLOAD OLD BUILDS:
+v24: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v24.zip
 v23: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v23.zip
 v22: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v22.zip
 v21: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v21.zip
@@ -123,3 +124,14 @@ Changes in v20:
 -added system-files-check on startup
 
 In v23 repaired "set-mpaksource" RESCUE-SHELL command. 21,22,23 are bugfix updates.
+
+After 2 weeks of nothing I created v25 - The BSD Compat Update, News in this version:
+-added file structure from BSD (compat,etc,bin,var and others)
+-added new init system (initV2)
+-added new login applet
+-changed disk type to thdXpX (True Hard Disk)
+-added fstab in etc dir (fstab replaced old disks.vds)
+-added loader.net in boot dir (loader.net replaced boot_loader.net)
+-added dev/null file
+-added compat/windows_nt folder (DLLs in compat/windows_nt/libs are random DLLs from my Windows 8)
+-renamed main file from "main.bat" to "boot.bat"
