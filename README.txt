@@ -52,10 +52,11 @@ ce - create binary package
 cn - transform net library into library package
 
 DOWNLOAD:
-v26 (Stable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v26.zip
+v27 (Stable build): http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v26.zip
 
 
 DOWNLOAD OLD BUILDS:
+v26: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v26.zip
 v25: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v25.zip
 v24: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v24.zip
 v23: http://github.com/glowiak/batchbsd/raw/master/BatchBSD_v23.zip
@@ -143,3 +144,5 @@ How to install BatchBSD on non-windows:
 3.Start main BatchBSD file with Wine
 
 In v26 I repaired no-booting bug from v25
+
+In v27 I added desctiption to multipak package list yay!
