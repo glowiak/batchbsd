@@ -148,3 +148,5 @@ In v26 I repaired no-booting bug from v25
 In v27 I added desctiption to multipak package list yay!
 
 This is weird, net version of multipak and strap don't working on Wine (WineIE is broken)
+
+Try my new project, BashBSD - port of BSD for other OSs: http://github.com/glowiak/bashbsd
